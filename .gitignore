@@ -1,0 +1,13 @@
+# Mac files
+.DS_Store
+.com.apple.timemachine.supported
+._*  # AppleDouble files
+
+# Git
+*.orig
+
+# VSCode
+.vscode/
+
+# Vendored dependencies
+/vendor/
