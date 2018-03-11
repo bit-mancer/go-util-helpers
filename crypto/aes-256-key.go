@@ -1,3 +1,4 @@
+// Package crypto provides a small wrapper around cryptopasta.
 package crypto
 
 import (

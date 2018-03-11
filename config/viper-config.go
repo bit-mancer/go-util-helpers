@@ -1,3 +1,4 @@
+// Package config implements a tiny wrapper around Viper.
 package config
 
 import (
