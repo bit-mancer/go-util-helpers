@@ -1,0 +1,13 @@
+language: go
+
+# Go major releases are supported until there are two newer major releases; security patches are made available in supported releases.
+# (https://golang.org/doc/devel/release.html)
+go:
+    - "1.9.x"
+    - "1.10.x"
+    - "master" # test against future releases
+
+matrix:
+    allow_failures:
+        - go: "master" # allow master to fail
+    fast_finish: true # determine build result as soon as the required jobs finish
