@@ -5,7 +5,11 @@
 [![Build Status][travis-image]][travis-url]
 [![Go Report Card][goreportcard-image]][goreportcard-url]
 
-Sundry golang utility stuff. This is the package-helper-specific stuff from [go-util][go-util-url] broken out to its own library.
+Helpers and wrappers for 3rd party golang stuff I use with frequency in my own projects; these are too small to be made into individual libraries.
+
+* Crypto (via [cryptopasta][cryptopasta-url])
+* Config (via [Viper][viper-url])
+* GCE-friendly Logging (via [Zap][zap-url])
 
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg
@@ -20,4 +24,6 @@ Sundry golang utility stuff. This is the package-helper-specific stuff from [go-
 [goreportcard-image]: https://goreportcard.com/badge/github.com/bit-mancer/go-util-helpers
 [goreportcard-url]: https://goreportcard.com/report/github.com/bit-mancer/go-util-helpers
 
-[go-util-url]: https://github.com/bit-mancer/go-util
+[cryptopasta-url]: https://github.com/gtank/cryptopasta
+[viper-url]: https://github.com/spf13/viper
+[zap-url]: https://github.com/uber-go/zap
