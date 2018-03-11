@@ -36,7 +36,7 @@ func NewAESKeyFromBase64(base64Key string) (*AES256Key, error) {
 	}
 
 	if len(keyBytes) != AES256KeyLengthInBytes {
-		return nil, fmt.Errorf("Expected key length to be %d; was %d", AES256KeyLengthInBytes, len(keyBytes))
+		return nil, fmt.Errorf("expected key length to be %d, was %d", AES256KeyLengthInBytes, len(keyBytes))
 	}
 
 	key := &AES256Key{}

@@ -40,7 +40,7 @@ func readInput() ([]byte, error) {
 
 	fileInfo, err := os.Stat(inputFile)
 	if err != nil {
-		return nil, fmt.Errorf("Error getting information on the input file: %v", err)
+		return nil, fmt.Errorf("error getting information on the input file: %v", err)
 	}
 
 	fileMode = fileInfo.Mode()
